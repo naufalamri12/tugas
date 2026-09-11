@@ -14,5 +14,6 @@ Di dalam docker-compose file buat suatu custom network dengan nama team kalian, 
 Deploy database terlebih dahulu menggunakan mysql dan jangan lupa untuk pasang volume di bagian database.
 =untuk disini beluma ada kesulitan tetapi kadang bingung saat mencari file karena di luar tidak ada
 4.gunakan multistage build . untuk multistage build saya menguranginnya dengan cara memakai nginx:alpine
+5.Web Server buatlah configurasi reverse-proxy menggunakan nginx on top docker.
 
 
