@@ -18,4 +18,19 @@ Deploy database terlebih dahulu menggunakan mysql dan jangan lupa untuk pasang v
 6. Push image ke docker registry kalian masing".
 7.Aplikasi dapat berjalan dengan sesuai seperti melakukan login/register.
 
-
+## Jenkins
+1Installasi Jenkins on top Docker or native
+2.Setup SSH-KEY di local server jenkins kalian, agar dapat login ke dalam server menggunakan SSH-KEY
+3Reverse Proxy Jenkins
+4gunakan domain ex. jenkins.mentor.studentdumbways.my.id
+5.reverse proxy sesuaikan dengan ketentuan yang ada di dalam Jenkins documentation
+6.Buatlah beberapa Job untuk aplikasi kalian yang telah kalian deploy di task sebelumnya (frontend && backend)
+7.Untuk script CICD atur flow pengupdate an aplikasi se freestyle kalian dan harus mencangkup
+8.Pull dari repository
+9Dockerize/Build aplikasi kita
+10Test application
+11Push ke Docker Hub
+12Deploy aplikasi on top Docker
+13Auto trigger setiap ada perubahan di SCM
+14Buat job notification ke discord
+menurut saya reverse proxy jenkins tidak bisa disatuin sama yang lainnya karena saya sudah mencoba atau paling ada code saya yang salah atau belum dimasukin 
