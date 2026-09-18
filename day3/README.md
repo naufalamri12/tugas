@@ -1,4 +1,6 @@
-tugas 1
+link tugas vidio( https://drive.google.com/file/d/1nX5DfMAgtviXLR7ftKBEx1-duNrmfIPl/view?usp=sharing)
+## tugas 1
+
 Dengan mendaftar akun free tier AWS/GCP/Azure, buatlah Infrastructre dengan terraform menggunakan registry yang sudah ada. dengan beberapa aturan berikut :
 Buatlah 2 buah server dengan OS ubuntu 24 dan debian 11 (Untuk spec menyesuaikan)
 attach vpc ke dalam server tersebut
